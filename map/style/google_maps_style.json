@@ -1511,7 +1511,7 @@
       "minzoom": 13,
       "filter": ["all", ["==", "$type", "LineString"], ["has", "name"]],
       "layout": {
-        "text-font": ["NotoSans-Italic"],
+        "text-font": ["migu2m-regular"],
         "text-size": 14,
         "text-field": "{name}",
         "text-max-width": 5,
@@ -1533,7 +1533,7 @@
       "source-layer": "water_name",
       "filter": ["==", "$type", "LineString"],
       "layout": {
-        "text-font": ["NotoSans-Italic"],
+        "text-font": ["migu2m-regular"],
         "text-size": 14,
         "text-field": "{name}",
         "text-max-width": 5,
@@ -1555,7 +1555,7 @@
       "source-layer": "water_name",
       "filter": ["all", ["==", "$type", "Point"], ["==", "class", "ocean"]],
       "layout": {
-        "text-font": ["NotoSans-Italic"],
+        "text-font": ["migu2m-regular"],
         "text-size": 14,
         "text-field": "{name}",
         "text-max-width": 5,
@@ -1577,7 +1577,7 @@
       "source-layer": "water_name",
       "filter": ["all", ["==", "$type", "Point"], ["!in", "class", "ocean"]],
       "layout": {
-        "text-font": ["NotoSans-Italic"],
+        "text-font": ["migu2m-regular"],
         "text-size": {"stops": [[0, 10], [6, 14]]},
         "text-field": "{name}",
         "text-max-width": 5,
@@ -1602,7 +1602,7 @@
       "filter": ["all", ["==", "$type", "Point"], [">=", "rank", 25]],
       "layout": {
         "text-padding": 2,
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-anchor": "top",
         "icon-image": "{class}_11",
         "text-field": "{name}",
@@ -1631,7 +1631,7 @@
       ],
       "layout": {
         "text-padding": 2,
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-anchor": "top",
         "icon-image": "{class}_11",
         "text-field": "{name}",
@@ -1660,7 +1660,7 @@
       ],
       "layout": {
         "text-padding": 2,
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-anchor": "top",
         "icon-image": "{class}_11",
         "text-field": "{name}",
@@ -1690,7 +1690,7 @@
       ],
       "layout": {
         "text-padding": 2,
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-anchor": "top",
         "icon-image": "{class}_11",
         "text-field": "{name}",
@@ -1740,7 +1740,7 @@
         "icon-rotation-alignment": "map",
         "icon-rotate": 90,
         "icon-size": {"stops": [[15, 0.5], [19, 1]]},
-        "text-font": ["NotoSans-Regular"]
+        "text-font": ["migu2m-regular"]
       },
       "paint": {"icon-opacity": 0.5}
     },
@@ -1773,7 +1773,7 @@
         "icon-rotation-alignment": "map",
         "icon-rotate": -90,
         "icon-size": {"stops": [[15, 0.5], [19, 1]]},
-        "text-font": ["NotoSans-Regular"]
+        "text-font": ["migu2m-regular"]
       },
       "paint": {"icon-opacity": 0.5}
     },
@@ -1786,7 +1786,7 @@
       "filter": ["==", "class", "path"],
       "layout": {
         "text-size": {"base": 1, "stops": [[13, 12], [14, 13]]},
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-field": "{name}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
@@ -1810,7 +1810,7 @@
       ],
       "layout": {
         "text-size": {"base": 1, "stops": [[13, 12], [14, 13]]},
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-field": "{name}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
@@ -1830,7 +1830,7 @@
       "filter": ["in", "class", "primary", "secondary", "tertiary", "trunk"],
       "layout": {
         "text-size": {"base": 1, "stops": [[13, 12], [14, 13]]},
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-field": "{name}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
@@ -1858,7 +1858,7 @@
         "icon-image": "{network}_{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-spacing": 200,
-        "text-font": ["NotoSans-Bold"],
+        "text-font": ["migu2m-bold"],
         "symbol-placement": {
           "base": 1,
           "stops": [[7, "point"], [7, "line"], [8, "line"]]
@@ -1889,7 +1889,7 @@
         "icon-image": "{network}_{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-spacing": 200,
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
         "text-rotation-alignment": "viewport",
         "icon-size": 1,
@@ -1906,7 +1906,7 @@
       "filter": ["all", ["has", "iata"]],
       "layout": {
         "text-padding": 2,
-        "text-font": ["NotoSans-Italic"],
+        "text-font": ["migu2m-regular"],
         "text-anchor": "top",
         "icon-image": "airport_11",
         "text-field": "{name}",
@@ -1937,7 +1937,7 @@
       "layout": {
         "text-letter-spacing": 0.1,
         "text-size": {"base": 1.2, "stops": [[12, 9], [15, 12]]},
-        "text-font": ["NotoSans-Bold"],
+        "text-font": ["migu2m-bold"],
         "text-field": "{name}",
         "text-transform": "uppercase",
         "text-max-width": 9,
@@ -1957,7 +1957,7 @@
       "source-layer": "place",
       "filter": ["==", "class", "village"],
       "layout": {
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-size": {"base": 1.2, "stops": [[10, 12], [15, 22]]},
         "text-field": "{name}",
         "text-max-width": 8,
@@ -1977,7 +1977,7 @@
       "source-layer": "place",
       "filter": ["==", "class", "town"],
       "layout": {
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-size": {"base": 1.2, "stops": [[10, 12], [15, 14]]},
         "text-field": "{name}",
         "text-max-width": 8,
@@ -1997,7 +1997,7 @@
       "source-layer": "place",
       "filter": ["all", ["==", "class", "state"]],
       "layout": {
-        "text-font": ["NotoSans-Bold"],
+        "text-font": ["migu2m-bold"],
         "text-size": {"base": 1.2, "stops": [[7, 16], [11, 20]]},
         "text-field": "{name}",
         "text-max-width": 8,
@@ -2019,7 +2019,7 @@
       "source-layer": "place",
       "filter": ["all", ["!=", "capital", 2], ["==", "class", "city"]],
       "layout": {
-        "text-font": ["NotoSans-Regular"],
+        "text-font": ["migu2m-regular"],
         "text-size": {"base": 1.2, "stops": [[7, 14], [11, 18]]},
         "text-field": "{name}",
         "text-max-width": 8,
@@ -2040,7 +2040,7 @@
       "source-layer": "place",
       "filter": ["all", ["==", "capital", 4], ["==", "class", "city"]],
       "layout": {
-        "text-font": ["NotoSans-Bold"],
+        "text-font": ["migu2m-bold"],
         "text-size": {"base": 1.2, "stops": [[7, 15.5], [11, 19]]},
         "text-field": "{name}",
         "text-max-width": 8,
@@ -2071,7 +2071,7 @@
         ["!has", "iso_a2"]
       ],
       "layout": {
-        "text-font": ["NotoSans-Italic"],
+        "text-font": ["migu2m-regular"],
         "text-field": "{name}",
         "text-size": {"stops": [[3, 11], [7, 17]]},
         "text-transform": "uppercase",
@@ -2098,7 +2098,7 @@
         ["has", "iso_a2"]
       ],
       "layout": {
-        "text-font": ["NotoSans-Bold"],
+        "text-font": ["migu2m-bold"],
         "text-field": "{name}",
         "text-size": {"stops": [[3, 11], [7, 17]]},
         "text-transform": "uppercase",
@@ -2125,7 +2125,7 @@
         ["has", "iso_a2"]
       ],
       "layout": {
-        "text-font": ["NotoSans-Bold"],
+        "text-font": ["migu2m-bold"],
         "text-field": "{name}",
         "text-size": {"stops": [[2, 11], [5, 17]]},
         "text-transform": "uppercase",
@@ -2152,7 +2152,7 @@
         ["has", "iso_a2"]
       ],
       "layout": {
-        "text-font": ["NotoSans-Bold"],
+        "text-font": ["migu2m-bold"],
         "text-field": "{name}",
         "text-size": {"stops": [[1, 11], [4, 17]]},
         "text-transform": "uppercase",
@@ -2175,7 +2175,7 @@
       "maxzoom": 1,
       "filter": ["==", "class", "continent"],
       "layout": {
-        "text-font": ["NotoSans-Bold"],
+        "text-font": ["migu2m-bold"],
         "text-field": "{name}",
         "text-size": 14,
         "text-max-width": 6.25,

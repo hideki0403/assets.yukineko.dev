@@ -32,7 +32,7 @@
     }
   },
   "sprite": "https://raw.githubusercontent.com/jpriebe/google-maps-gl-style/master/sprite",
-  "glyphs": "https://unvt.github.io/nsft/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://tile.openstreetmap.jp/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
